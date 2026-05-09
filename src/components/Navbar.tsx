@@ -68,9 +68,10 @@ export default function Navbar() {
               {l.label}
             </a>
           ))}
-          <a href="tel:(404)5550167" className="mt-2 bg-emerald-600 text-white text-center py-3 rounded-full font-semibold text-sm">
+          {/* <a href="tel:(404)5550167" className="mt-2 bg-emerald-600 text-white text-center py-3 rounded-full font-semibold text-sm">
             Call Now
-          </a>
+          </a> */}
+          <CallNowButton />
         </div>
       )}
     </nav>
