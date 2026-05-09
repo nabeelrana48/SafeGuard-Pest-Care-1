@@ -8,7 +8,7 @@ export async function POST() {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      agent_id: 'process.env.RETELL_AGENT_ID',
+      agent_id: process.env.RETELL_AGENT_ID,
     }),
   })
 
